@@ -21,6 +21,7 @@ Output - "1, 3, 6-8, 12-15, 21-24, 31"
 - - -
 
 ## Solution Robustness
+
 The solution supports the following scenarios:
 * Empty number string;
 * Duplicate numbers in the specified number string;
@@ -31,6 +32,7 @@ The solution supports the following scenarios:
 - - -
 
 ## Task Assumptions
+
 1. As per instructions, the solution implementation is expected to solely use the summarizeCollection() and collect() methods in conjunction with each other.
 2. Input number strings are invalid for summarizing number ranges when:
     * An alternative delimiter is used to define the number string;
@@ -42,6 +44,8 @@ The solution supports the following scenarios:
 ## Instructions
 
 1. Clone repository
-2. Open in VSCode
-3. Install Java Test Runner Extension
-4. Run the unit tests via the test tab
+2. Install Java SDK
+3. Open in VSCode
+4. Java Test Runner Extension in VSCode
+5. Run the unit tests via the test tab
+6. ```Ctrl + Shift + P``` to open Command Palette, and click Java: Show Test report to see unit test results.
